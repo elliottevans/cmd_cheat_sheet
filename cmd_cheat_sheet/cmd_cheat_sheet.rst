@@ -26,6 +26,13 @@ General
 * Get all processes: ``ps aux``
 * Keep machine from sleeping: ``caffeinate -d -i -w $$``
 
+Conda
+^^^^^^^
+
+* Create a new conda environment with Python 3.12: ``conda create -n {environment_name} python=3.12``
+* Remove a conda environment: ``conda remove -n {environment_name}``
+* List available conda environments: ``conda env list``
+
 Setting Up Git
 ^^^^^^^^^^^^^^
 * `Set up Git / Connecting over SSH <https://docs.github.com/en/get-started/getting-started-with-git/set-up-git#connecting-over-ssh>`_
