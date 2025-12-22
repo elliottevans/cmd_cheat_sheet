@@ -15,8 +15,7 @@ Docker
 General
 ^^^^^^^
 
-* ``xattr -d com.apple.quarantine [path to avenue binary]``
-  - Remove apple security block for a file you trust
+* Bypass apple quarantine: ``xattr -d com.apple.quarantine [path to avenue binary]``
 * Monitor memory usage: ``top``
 * Monitor GPU usage: ``watch -n0.1 nvidia-smi``
 * Monitor filesystem usage: ``watch -n0.1 df -h``
